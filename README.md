@@ -1,6 +1,5 @@
 - 👋 Hi, I’m @Tharaniguru
-- 👀 I’m interested in Ai
-- 🌱 I’m currently learning machine learning
+- 👀 I’m interested in AI
 - 💞️ I’m looking to collaborate on AI-related projects
 - 📫 How to reach me tharaniguru0110@gmail.com
 - 😄 Pronouns: she/her
