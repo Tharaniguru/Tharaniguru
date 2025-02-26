@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Tharaniguru/static/css/main.c674dcb2.css",
+    "main.js": "/Tharaniguru/static/js/main.2015fd9f.js",
+    "index.html": "/Tharaniguru/index.html",
+    "main.c674dcb2.css.map": "/Tharaniguru/static/css/main.c674dcb2.css.map",
+    "main.2015fd9f.js.map": "/Tharaniguru/static/js/main.2015fd9f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c674dcb2.css",
+    "static/js/main.2015fd9f.js"
+  ]
+}
