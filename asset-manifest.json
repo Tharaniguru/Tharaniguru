@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Tharaniguru/static/css/main.b4a465e0.css",
-    "main.js": "/Tharaniguru/static/js/main.c312f62a.js",
+    "main.js": "/Tharaniguru/static/js/main.42213e5f.js",
     "static/media/photoCroped.jpg": "/Tharaniguru/static/media/photoCroped.cbeb517885514145b0f7.jpg",
     "index.html": "/Tharaniguru/index.html",
     "main.b4a465e0.css.map": "/Tharaniguru/static/css/main.b4a465e0.css.map",
-    "main.c312f62a.js.map": "/Tharaniguru/static/js/main.c312f62a.js.map"
+    "main.42213e5f.js.map": "/Tharaniguru/static/js/main.42213e5f.js.map"
   },
   "entrypoints": [
     "static/css/main.b4a465e0.css",
-    "static/js/main.c312f62a.js"
+    "static/js/main.42213e5f.js"
   ]
 }
