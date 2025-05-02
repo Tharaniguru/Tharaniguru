@@ -8,7 +8,7 @@ import About from './components/About';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/tharaniguru">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
