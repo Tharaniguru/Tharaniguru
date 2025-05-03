@@ -1,29 +1,30 @@
-// src/pages/Contact.js
-import React, { useRef } from "react";
-import emailjs from "@emailjs/browser";
+import React from "react";
 
-function Contact() {
-  const form = useRef();
+function App() {
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+    formData.append("access_key", "748a6502-7581-478d-8501-6d084ea1523a");
 
-    emailjs
-      .sendForm(
-        "your_service_id", // e.g., service_qwerty
-        "your_template_id", // e.g., template_abc123
-        form.current,
-        "your_public_key"   // e.g., 6C0xYZabc12345
-      )
-      .then(
-        (result) => {
-          alert("Message sent successfully!");
-          form.current.reset();
-        },
-        (error) => {
-          alert("Failed to send message. Please try again.");
-        }
-      );
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json"
+      },
+      body: json
+    }).then((res) => res.json());
+
+    if (res.success) {
+      alert("Message sent successfully!");
+      event.target.reset();
+    } else {
+      alert("Failed to send message. Please try again.");
+    }
   };
 
   return (
@@ -33,8 +34,7 @@ function Contact() {
       </h1>
 
       <form
-        ref={form}
-        onSubmit={sendEmail}
+        onSubmit={onSubmit}
         className="w-full md:w-1/2 bg-white p-6 rounded-lg shadow-lg"
       >
         <div className="mb-4">
@@ -78,4 +78,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default App;
