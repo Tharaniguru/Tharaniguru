@@ -6,7 +6,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=tharaniguru" alt="tharaniguru" /></a> </p>
 
-- 🔭 I’m currently working on [Recipe Sharing & Ordering Platform with Location Tracking](https://github.com/Tharaniguru/RecipeSharing)
+- 🔭 I’m currently working on [J.A.R.V.I.S](https://github.com/Tharaniguru/JARVIS)
 
 - 🌱 I’m currently learning **Web development , Artificial Intelligence**
 
